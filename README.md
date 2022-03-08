@@ -12,7 +12,7 @@ One day, this happened to me and I decided to take it seriously. https://twitter
 Install the pkg with `go get github.com/nikochiko/sorryf`.
 
 It has exactly one method `sorryf.Sorryf`, with the same argument and return types as `fmt.Sprintf` (it returns a string), only
-that a frowning face (☹️) will be prepended to the string. `sorryf.Sorryf("hello %s", world)` would return `"☹️ hello, world"`.
+that a frowning face (☹️) will be prepended to the string. `sorryf.Sorryf("hello %s", world)` would return `"☹️ hello world"`.
 
 Use it in code like:
 ```go
